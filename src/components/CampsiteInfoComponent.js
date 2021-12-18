@@ -9,13 +9,6 @@ import {
 } from 'reactstrap';
 
 class CampsiteInfo extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      campsite: null,
-    };
-  }
-
   renderCampsite(campsite) {
     return (
       <div className="col-md-5 m-1">
