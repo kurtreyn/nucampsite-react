@@ -41,7 +41,8 @@ class CampsiteInfo extends Component {
                 <p>
                   {comment.text}
                   <br />
-                  {comment.author},{' '}
+                  {'--'}
+                  {comment.author}
                   {new Intl.DateTimeFormat('en-US', {
                     year: 'numeric',
                     month: 'short',
