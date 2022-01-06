@@ -15,7 +15,8 @@ function RenderCard({ item, isLoading, errMess }) {
     <FadeTransform
       in
       transformProps={{
-        exitTransform: 'scale(0.5)  translateY(100%) duration(800)',
+        exitTransform: 'scale(0.5)  translateY(100%)',
+        exitOpacity: '0.25',
       }}
     >
       <Card>
