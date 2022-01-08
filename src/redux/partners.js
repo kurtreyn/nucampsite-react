@@ -1,11 +1,5 @@
 import * as ActionTypes from './ActionTypes';
 
-// export const Partners = (state = PARTNERS, action) => {
-//   switch (action.type) {
-//     default:
-//       return state;
-//   }
-// };
 export const Partners = (
   state = { isLoading: true, errMess: null, partners: [] },
   action
